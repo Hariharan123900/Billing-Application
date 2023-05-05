@@ -1,0 +1,34 @@
+﻿body {
+*{
+     margin:0;
+     padding:0;
+ }
+ #sidebar{
+     position:fixed;
+     width:30%;
+     height:100%;
+     background-color:blue;
+ }
+ #sidebar li{
+     color:white;
+     font-size:30px;
+     padding:30px;
+     border-bottom:1px solid groove;
+     text-align:center;
+ }
+ #toggle_btn{
+     position:absolute;
+     left:120%;
+     top:15px;
+
+ }
+#toggle_btn span{
+    display:block;
+    background-color:black;
+    width:30px;
+    height:5px;
+}
+
+
+
+}
